@@ -6,8 +6,9 @@
 header{
     padding-top:1.2rem;
     height: 65vh;
-    /* opacity: 0.9; */
+    opacity: 0.9;
     background-image: url(/Assets/home4.jpg);
+
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
@@ -34,12 +35,12 @@ header{
 
     color: white;
     text-decoration: none;
+    transition:  color 0.7s;
    
 }
 .horizontal-list li a:hover{
     text-decoration: underline;
     color:  rgba(13, 241, 245, 0.735);
-    transition:  color 0.7s;
   
 
 }
@@ -51,6 +52,7 @@ h1{
     font-weight: 700;
     text-align: center;
     margin-top: 4.8rem;
+    text-shadow: 1px 1px 1px gray;
     
   
 }
@@ -61,11 +63,12 @@ h1{
     padding:0.6rem;
     filter: invert();
     border-radius: 50%;
+    transition: all 0.3s linear;
     
 }
 .social-icons li a img:hover{
     box-shadow:0px 0px 6px 4px rgb(238 67 67);
-    transition:0.6s;
+    transform:scale(1.08);
     
     
 }
