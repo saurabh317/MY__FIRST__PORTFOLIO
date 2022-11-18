@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+}
+
+
+header{
+    padding-top:1.2rem;
+    height: 65vh;
+    /* opacity: 0.9; */
+    background-image: url(/Assets/home4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+/* setting up some properties to navigation */
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 10px;
+    
+    
+}
+
+.horizontal-list li a{
+    /* font-size: 1.1rem; */
+
+    color: white;
+    text-decoration: none;
+   
+}
+.horizontal-list li a:hover{
+    text-decoration: underline;
+    color:  rgba(13, 241, 245, 0.735);
+    transition:  color 0.7s;
+  
+
+}
+/* setting up some properties to the name */
+h1{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4.8rem;
+    
+  
+}
+/* setting up some properties to the social icons*/
+
+.social-icons li a img{
+    margin-top:0.3rem;
+    padding:0.6rem;
+    filter: invert();
+    border-radius: 50%;
+    
+}
+.social-icons li a img:hover{
+    box-shadow:0px 0px 6px 4px rgb(238 67 67);
+    transition:0.6s;
+    
+    
+}
+/* setting up some properties to the about section*/
+/* setting up some properties to the image in the about section*/
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+#myImage {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#myImage img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+   
+}
+#about p{
+    padding: 3rem 10rem;
+    text-align: justify;
+} 
+
