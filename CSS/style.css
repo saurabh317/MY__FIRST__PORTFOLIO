@@ -2,13 +2,16 @@
     margin: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 header{
     padding-top:1.2rem;
     height: 65vh;
     /* opacity: 0.9; */
-    /* background-image: url(/Assets/home4.jpg); */
-    background-color:rgb(49, 46, 46);
+    background-image: url(/Assets/home.jpg);
+    /* background-color:rgb(49, 46, 46); */
 
     background-size: cover;
     background-position: center;
@@ -41,7 +44,7 @@ header{
 }
 .horizontal-list li a:hover{
     text-decoration: underline;
-    color:  rgba(13, 241, 245, 0.735);
+    color:  #ff5603;
   
 
 }
@@ -68,7 +71,7 @@ h1{
     
 }
 .social-icons li a img:hover{
-    box-shadow:0px 0px 6px 4px rgb(238 67 67);
+    box-shadow:0px 0px 6px 4px rgb(67, 209, 238);
     transform:scale(1.08);
     
     
@@ -94,12 +97,12 @@ h1{
    
 }
 #about p{
-    padding: 3rem 10rem;
+    padding: 3rem 6rem;
     text-align: justify;
 } 
 /* setting up some propertirs to the skills section */
 section{
-    height: 75vh;
+    height: 70vh;
     width:100% ;
     display: flex;
     flex-direction: column;
@@ -118,24 +121,29 @@ section:nth-child(2n+1){
 
 }
 .SectionName h1{
+    margin-top: 1rem;
     font-size: 40px;
     color: #2857a4;
 }
 .SkillDisplay{
+    margin-top: 4rem;
+    height: 35vh;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 70%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
 }
 .skillProgress{
     /* border: 2px solid black; */
     border-radius: 0.8rem;
-    width: 7rem;
-    height: 1.4rem;
+    width: 8rem;
+    height: 1.7rem;
     background-color:gray;
+    margin: 0rem 3rem;
 }
 .percentageIndicator{
-    width: 75%;
+    width: 60%;
     height: inherit;
     border-radius: 0.8rem;
     /* border: 2px solid red; */
@@ -145,7 +153,49 @@ section:nth-child(2n+1){
     color: white;
     font-size: 1rem;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 13px;
 
+}
+.percentageIndicator1{
+    width: 80%;
+    height: inherit;
+    border-radius: 0.8rem;
+    background-color: red;
+}
+.percentageIndicator2{
+    width: 90%;
+    height: inherit;
+    border-radius: 0.8rem;
+    background-color:rgb(67, 41, 41);
+}
+.percentageIndicator3{
+    width: 75%;
+    height: inherit;
+    border-radius: 0.8rem;
+    background-color:seagreen;
+}
+.percentageIndicator4{
+    width: 70%;
+    height: inherit;
+    border-radius: 0.8rem;
+    background-color:seagreen;
+}
+.percentageIndicator5{
+    width: 75%;
+    height: inherit;
+    border-radius: 0.8rem;
+    background-color:rgb(67, 41, 41);
+}
+.percentageIndicator6{
+    width: 65%;
+    height: inherit;
+    border-radius: 0.8rem;
+    background-color: red;
+}
+.percentageIndicator7{
+    width: 50%;
+    height: inherit;
+    border-radius: 0.8rem;
+    background-color:#2857a4;
 }
 
