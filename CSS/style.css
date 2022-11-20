@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: sans-serif;
 }
 
 html {
@@ -158,7 +159,7 @@ section:nth-child(2n+1){
 .percentageIndicator{
     width: 60%;
     height: inherit;
-    border-radius: 0.8rem;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
     /* border: 2px solid red; */
     background-color:#2857a4;
 }
@@ -172,72 +173,114 @@ section:nth-child(2n+1){
 .percentageIndicator1{
     width: 80%;
     height: inherit;
-    border-radius: 0.8rem;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
     background-color: red;
 }
 .percentageIndicator2{
     width: 90%;
     height: inherit;
-    border-radius: 0.8rem;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
     background-color:rgb(67, 41, 41);
 }
 .percentageIndicator3{
     width: 75%;
     height: inherit;
-    border-radius: 0.8rem;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
     background-color:seagreen;
 }
 .percentageIndicator4{
     width: 70%;
     height: inherit;
-    border-radius: 0.8rem;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
     background-color:seagreen;
 }
 .percentageIndicator5{
     width: 75%;
     height: inherit;
-    border-radius: 0.8rem;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
     background-color:rgb(67, 41, 41);
 }
 .percentageIndicator6{
     width: 65%;
     height: inherit;
-    border-radius: 0.8rem;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
     background-color: red;
 }
 .percentageIndicator7{
     width: 50%;
     height: inherit;
-    border-radius: 0.8rem;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
     background-color:#2857a4;
     
 }
-#contact{
-    background: linear-gradient(red, blue);
+ #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
-}
+} 
 .contactInfo{
-    margin-top:2rem ;
-    height: 60vh;
+    margin:  1rem 2.5rem;
+    /* margin-top:2rem ;
+    height: 60vh; */
     display: flex;
     justify-content: space-between;
 }
+
 .inputData{
+   text-align:end;
+   
+    color: white;
     padding: 0.5rem 7rem;
-    width: 50%;
-    height: auto;
+    width: 30%;
+    height: 50vh;
+}
+.inputData input{
+    background-color: white;
+    height: 1.2rem;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 2rem;
+    width: 13rem;
+    margin-top: 30px;
+    outline: none;
+    border-width: 0;
 }
 .outputData{
-    text-align: justify;
-    width: 50%;
-    height: auto;
-    padding: 0.5rem 7rem;
+    /* text-align: justify; */
+    width: auto;
+    height: 50vh;
+    padding-left: 15rem;
+    /* margin-left: 14rem; */
+    float: right;
+}
+.inner1{
+    color: white;
+
+}
+.inner1 h1{
+    font-size: 1.2rem;
+
+}
+.inner1 p{
+    
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
+}
+.inner2{
+    margin-top: 1.7rem;
+    color: white;
+}
+.inner2 h1{
+    font-size: 1.2rem;
+
+}
+.inner2 p{
+    color:  #b2afad;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
 }
 
-.outputData h1{
-    margin-bottom: 1.5rem;
-}
-.outputData p{
-    margin-bottom: 2rem;
-}
 
