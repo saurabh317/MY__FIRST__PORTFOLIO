@@ -49,7 +49,7 @@ header{
 
 }
 /* setting up some properties to the name */
-h1{
+#body-header h1 {
     color: white;
     font-size: 3rem;
     letter-spacing: 0.1rem;
@@ -59,6 +59,19 @@ h1{
     text-shadow: 1px 1px 1px gray;
     
   
+}
+.SectionName h1{
+    
+        color: white;
+        font-size: 3rem;
+        /* letter-spacing: 0.1rem; */
+        font-weight: 700;
+        text-align: center;
+        margin-top: 4.8rem;
+        /* text-shadow: 1px 1px 1px gray; */
+        
+      
+    
 }
 /* setting up some properties to the social icons*/
 
@@ -102,7 +115,7 @@ h1{
 } 
 /* setting up some propertirs to the skills section */
 section{
-    height: 70vh;
+    height: 75vh;
     width:100% ;
     display: flex;
     flex-direction: column;
@@ -197,5 +210,34 @@ section:nth-child(2n+1){
     height: inherit;
     border-radius: 0.8rem;
     background-color:#2857a4;
+    
+}
+#contact{
+    background: linear-gradient(red, blue);
+
+}
+.contactInfo{
+    margin-top:2rem ;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+.inputData{
+    padding: 0.5rem 7rem;
+    width: 50%;
+    height: auto;
+}
+.outputData{
+    text-align: justify;
+    width: 50%;
+    height: auto;
+    padding: 0.5rem 7rem;
+}
+
+.outputData h1{
+    margin-bottom: 1.5rem;
+}
+.outputData p{
+    margin-bottom: 2rem;
 }
 
