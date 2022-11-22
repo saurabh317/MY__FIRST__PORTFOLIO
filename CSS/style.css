@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    font-family: sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 html {
@@ -10,10 +10,8 @@ html {
 header{
     padding-top:1.2rem;
     height: 65vh;
-    /* opacity: 0.9; */
     background-image: url(/Assets/home.jpg);
-    /* background-color:rgb(49, 46, 46); */
-
+    /* background: linear-gradient( 50deg,#1053c0,#403066); */
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
@@ -36,8 +34,6 @@ header{
 }
 
 .horizontal-list li a{
-    /* font-size: 1.1rem; */
-
     color: white;
     text-decoration: none;
     transition:  color 0.7s;
@@ -65,11 +61,10 @@ header{
     
         color: white;
         font-size: 3rem;
-        /* letter-spacing: 0.1rem; */
         font-weight: 700;
         text-align: center;
         margin-top: 4.8rem;
-        /* text-shadow: 1px 1px 1px gray; */
+
         
       
     
@@ -115,6 +110,7 @@ header{
     text-align: justify;
 } 
 /* setting up some propertirs to the skills section */
+
 section{
     height: 95vh;
     width:100% ;
@@ -129,8 +125,6 @@ section:nth-child(2n+1){
 }
 .SectionName{
     width: auto;
-    /* padding: 20px 10px 10px; */
-    /* margin: 10px auto; */
     font-weight: 400;
 
 }
@@ -149,7 +143,6 @@ section:nth-child(2n+1){
     justify-content: center;
 }
 .skillProgress{
-    /* border: 2px solid black; */
     border-radius: 0.8rem;
     width: 8rem;
     height: 1.7rem;
@@ -160,7 +153,6 @@ section:nth-child(2n+1){
     width: 60%;
     height: inherit;
     border-radius: 0.8rem 0rem 0rem 0.8rem;
-    /* border: 2px solid red; */
     background-color:#2857a4;
 }
 .skill-name span{
@@ -213,86 +205,15 @@ section:nth-child(2n+1){
     background-color:#2857a4;
     
 }
-/* adding some style to the contact section */
- /* #contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 
-} 
-.contactInfo{
-    margin:  1rem 2.5rem;
-    margin-top:2rem ;
-    height: 60vh;
-    display: flex;
-    justify-content: space-between;
-    background-color: repeat linear-gradient();
-}
-
-.inputData{
-   text-align:end;
-   
-    color: white;
-    padding: 0.5rem 7rem;
-    width: 30%;
-    height: 50vh;
-}
-.inputData input{
-    background-color: white;
-    height: 1.2rem;
-    font-size: 13px;
-    text-align: center;
-    border-radius: 2rem;
-    width: 13rem;
-    margin-top: 30px;
-    outline: none;
-    border-width: 0;
-}
-.outputData{
-    
-    width: auto;
-    height: 50vh;
-    padding-left: 15rem;
-    
-    float: right;
-}
-.inner1{
-    color: white;
-
-}
-.inner1 h1{
-    font-size: 1.2rem;
-
-}
-.inner1 p{
-    
-    margin-top: 1rem;
-    font-size: 0.9rem;
-
-}
-.inner2{
-    margin-top: 1.7rem;
-    color: white;
-}
-.inner2 h1{
-    font-size: 1.2rem;
-
-}
-.inner2 p{
-    color:  #b2afad;
-    margin-top: 1rem;
-    font-size: 0.9rem;
-
-} */
 /* adding some style to the education section */
+
 #education{
     height: 100vh;
 }
 #eduMain{
     height: auto;
-    /* border: 1px solid black; */
-        /* height: auto; */
-        margin-top: 1.8rem;
+    margin-top: 1.8rem;
     width: 90%;
     left: 8%;
     position: relative;
@@ -302,7 +223,6 @@ section:nth-child(2n+1){
 .eduSubDiv{
     left: 5%;
     position: relative;
-    /* border: 1px solid red; */
     width: 40%;
     height: 25vh;
     margin: 5px;
@@ -321,7 +241,6 @@ section:nth-child(2n+1){
 .timeline-traveller{
     position: sticky;
     top: 30%;
-    /* bottom: 30%; */
     transform: rotate(90deg);
     z-index: 2;
 
@@ -349,7 +268,7 @@ section:nth-child(2n+1){
 }
 .eduHead{
     display: flex;
-    /* justify-content: space-between; */
+    
 }
 .eduName{
     margin-left: 3rem;
@@ -372,7 +291,6 @@ section:nth-child(2n+1){
     font-size: 0.9rem;
     font-weight:550;
     color:rgb(78, 66, 61) ;
-    /* color: #b2afad; */
 
 }
 .eduPara p{
@@ -382,14 +300,31 @@ section:nth-child(2n+1){
     color:rgb(78, 66, 61);
 
 }
+/* styling the blog section */
+/* #blog{
+    height: 100vh;
+}
+.blogMain{
+    width:85%;
+    border: 2px solid red;
+    position: relative;
+    left: 8%;
+    height: 100vh;
+    margin-top: 10px;
+}
+.blogMain > p::first-letter{
+    text-transform:capitalize;
+} */
+
+/* styling the contact section */
+
 #contact{
-    background: linear-gradient( 30deg,#2857a4,#403066);
+    background: linear-gradient( 30deg,#1053c0,#403066);
 }
 
 
 .contactMain{
     width: 80%;
-    border: 2px solid red;
     position: relative;
     left: 12%;
     margin-top: 1.8rem;
@@ -400,46 +335,69 @@ section:nth-child(2n+1){
 }
 .container1{
     position: relative;
-    border: 2px solid black;
     width: 40%;
     height: fit-content;
     
 }
+.input-field{
+    color: darkgray;
+    width: 90%;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    background: transparent;
+    font-size: 1rem;
+    margin: 10px;
+}
+.input-field::placeholder{
+    color: white;
+}
+.submit{
+    color: white;
+    width: 8rem;
+    background:transparent;
+    text-align: center;
+    margin: 13px;
+    border:2px solid white;
+
+}
 .container2{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     position: relative;
-    border: 2px solid green;
     width: 40%;
     height: fit-content;
 
 }
 .data1{
-    border: 1px solid blue;
     height: 35%;
     
 }
 .data1 h1{
-    margin: 10px;
+    text-align: ;
+    color: white;
+    margin: 12px 0px 12px 0px;
     
 }
 .data1 p{
+    color: white;
     font-size: 0.9rem;
     text-align: justify;
 
 }
 .data2{
     margin-top: 10px;
-    border: 2px solid yellow;
     height: 35%;
 
 }
 .data2 h1{
-    margin: 10px;
+    color: white;
+    margin: 10px 0px 10px 0px;
 }
 .data2 p{
-    margin: 8px;
+    color: white;
+    margin: 15px 0px ;
 }
 
 
