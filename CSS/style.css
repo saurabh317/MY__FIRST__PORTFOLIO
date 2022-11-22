@@ -116,7 +116,7 @@ header{
 } 
 /* setting up some propertirs to the skills section */
 section{
-    height: 75vh;
+    height: 95vh;
     width:100% ;
     display: flex;
     flex-direction: column;
@@ -213,6 +213,7 @@ section:nth-child(2n+1){
     background-color:#2857a4;
     
 }
+/* adding some style to the contact section */
  #contact{
     display: flex;
     flex-direction: column;
@@ -225,6 +226,7 @@ section:nth-child(2n+1){
     height: 60vh; */
     display: flex;
     justify-content: space-between;
+    background-color: repeat linear-gradient();
 }
 
 .inputData{
@@ -281,6 +283,64 @@ section:nth-child(2n+1){
     margin-top: 1rem;
     font-size: 0.9rem;
 
+}
+/* adding some style to the education section */
+#eduMain{
+    border: 1px solid black;
+        /* height: auto; */
+    width: 80%;
+    left: 12%;
+    position: relative;
+
+
+}
+.eduSubDiv{
+    left: 5%;
+    position: relative;
+    border: 1px solid red;
+    width: 40%;
+    height: 25vh;
+    margin: 5px;
+}
+.eduSubDiv:nth-child(2n){
+    left: 50%;
+}
+.timeline{
+    position: absolute;
+    height: 80%;
+    width: 0;
+    border: 2px dashed #0096fa6b;
+    top: 8%;
+    left: 48%;
+}
+.timeline-traveller{
+    position: sticky;
+    top: 30%;
+    /* bottom: 30%; */
+    transform: rotate(90deg);
+    z-index: 2;
+
+}
+.eduSubDiv::after{
+    content:' ';
+    position: absolute;
+    right: -7.5%;
+    top: 30%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color:orangered;
+    z-index: 1;
+}
+.eduSubDiv:nth-child(2n)::after{
+    content:' ';
+    position: absolute;
+    right: 105%;
+    top: 30%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color:orangered;
 }
 
 
