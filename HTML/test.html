@@ -6,15 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
-    height: 150px;
-    width: 300px;
-    background-image: repeating-linear-gradient(45deg, #9e6df9, #f77656 25%, #5ffc87 50%);
+     body{
+    display:flex;
 }
+.div1{
+    background-color: #ff8989;
+    width:32%;
+    height:300px;
+    margin:1%;
+    
+}
+.div2{
+     background-color:#88f7ce;
+     width:32%;
+    height:300px;
+    margin:1%;
+    
+    
+}
+.div3{
+     background-color:#e29df2;
+     width:32%;
+    height:300px;
+    margin:1%;
+    
+    
+}
+@media  only screen and (min-width:600px){
+    body{
+        display:flex;
+        flex-direction:column;
+    }
+    .div1{
+        width:100%;
+        
+    }
+      .div2{
+          width:100%;
+        
+    }
+      .div3{
+          width:100%;
+        
+    }
+}
+      
     </style>
+   
+
 </head>
 <body>
-    <div></div>
+  <div class="div1">
+        
+  </div>
+  <div class="div2">
+      
+  </div>
+  <div class="div3">
+      
+  </div>
     
 </body>
 </html>
